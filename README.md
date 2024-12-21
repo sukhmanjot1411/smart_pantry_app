@@ -1,6 +1,6 @@
 # Inventory Management App
 
-![Inventory Management Logo]
+![Inventory Management Logo](https://github.com/sukhmanjot1411/smart_pantry_app/blob/2bf90be691d0e0d6ffd342649b77d816c2292919/assets/OnboardingTitle.png)
 
 ## Table of Contents
 
