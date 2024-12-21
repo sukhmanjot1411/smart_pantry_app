@@ -18,16 +18,32 @@ class TabBarWidget extends StatelessWidget {
       children: [
         Container(
           color: Colors.white,
-          height: h*.05,
+          height: h*.06, 
           child: TabBar(
             unselectedLabelColor: Color(0xFFF49619),
             labelColor: Colors.white,
             dividerColor: Colors.white,
+            labelStyle: const TextStyle(
+              fontSize: 14,
+              fontWeight: FontWeight.w600,
+            ),
+            unselectedLabelStyle: const TextStyle(
+              fontSize: 14,
+              fontWeight: FontWeight.w500,
+            ),
             indicator: BoxDecoration(
               color: Color(0xFFF49619),
               borderRadius: BorderRadius.circular(20),
-
+              boxShadow: [
+                BoxShadow(
+                  color: Color(0xFFF49619).withOpacity(0.3),
+                  blurRadius: 4,
+                  offset: Offset(0, 2),
+                ),
+              ],
             ),
+            padding: EdgeInsets.symmetric(horizontal: 4),
+            labelPadding: EdgeInsets.symmetric(horizontal: 4),
             tabs: const [
               TabItem(title: 'Breakfast'),
               TabItem(title: 'Lunch'),
@@ -60,19 +76,27 @@ class TabItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      margin: EdgeInsets.symmetric(horizontal: 2),
       decoration: BoxDecoration(
         border: Border.all(
           color: Color(0xFFF49619),
+          width: 1.5,
         ),
         borderRadius: BorderRadius.circular(20)
       ),
-      child: Padding(padding: const EdgeInsets.symmetric(horizontal: 8),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
         child: Center(
-          child: Text(title, style: const TextStyle(
-            fontSize: 9.8
-          ),),
-        ),
+          child: Text(
+            title, 
+            style: const TextStyle(
+              fontSize: 13,
+              fontWeight: FontWeight.w500,
+            ),
+            textAlign: TextAlign.center,
           ),
+        ),
+      ),
     );
     return const Placeholder();
   }

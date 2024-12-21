@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "117040878796",
-    "project_id": "recipe-app-final-842bc",
-    "storage_bucket": "recipe-app-final-842bc.appspot.com"
+    "project_number": "38103098921",
+    "project_id": "smart-pantry-8562c",
+    "storage_bucket": "smart-pantry-8562c.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:117040878796:android:5683f0181e33e230609e69",
+        "mobilesdk_app_id": "1:38103098921:android:1b3f821ea9c4d09f8d1e38",
         "android_client_info": {
           "package_name": "com.example.recipe_app_final"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBCHyVrnO_ouuI-KlFpkCRr2c0n0pScZ6Y"
+          "current_key": "AIzaSyCnfHItHNv3TQ_YXA_dd4VSk3pOMWzOkLQ"
         }
       ],
       "services": {

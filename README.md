@@ -1,18 +1,42 @@
-# recipe_app_final
+# Inventory Management App
 
-A new Flutter project.
+![Inventory Management Logo]
 
-## Getting Started
+## Table of Contents
 
-This project is a starting point for a Flutter application.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-A few resources to get you started if this is your first Flutter project:
+## Introduction
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Welcome to the **Inventory Management App**! This application helps users manage their inventory efficiently by allowing them to add, edit, delete, and track items. This README will guide you through the setup and usage of Stack in this project.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# smart_pantry_share
-# smart_pantry_share
+## Features
+
+- User authentication with Firebase
+- Real-time inventory updates
+- Image scanning for bill recognition
+- Categorization of inventory items
+- Expiry date tracking and notifications
+
+## Technologies Used
+
+- **Flutter**: For building the mobile application
+- **Firebase**: For backend services (authentication, Firestore)
+- **Google ML Kit**: For text recognition from images
+- **Dart**: Programming language used for development
+
+## Installation
+
+To get started with this project, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone 
+   cd inventory-management-app
